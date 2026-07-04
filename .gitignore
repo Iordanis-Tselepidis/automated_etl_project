@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# Data files (IMPORTANT for ETL)
+# =========================
+*.parquet
+*.csv
+*.json
+*.db
+*.sqlite3
+
+# =========================
+# Docker
+# =========================
+*.log
+docker-compose.override.yml
